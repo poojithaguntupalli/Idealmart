@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/signin"
+            android:title="Sign In/Sign Up" />
+        <item
+            android:id="@+id/orders"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/cart"
+            android:title="Cart" />
+        <item
+            android:id="@+id/settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/service"
+            android:title="Customer Service" />
+        <item
+            android:id="@+id/sell"
+            android:title="Sell on IdealMart" />
+    </group>
+
+</menu>
